@@ -33,7 +33,7 @@ public class Cadotjes implements Listener, CommandExecutor {
 		SkullMeta skullMeta = (SkullMeta) skull.getItemMeta();
 		 
 		 
-		skullMeta.setOwner("Developer_M"); // Cadotjes skin
+		skullMeta.setOwner("Developer_M"); // Cadotjes skin // tests
 		 
 		skull.setItemMeta(skullMeta); 
 		 
