@@ -1,0 +1,7 @@
+name: MCASint
+description: MCASint 0.1
+version: 0.1
+main: me.mickerd.mcacore.main
+commands:
+   cado:
+       description: Create a cado /cado create
