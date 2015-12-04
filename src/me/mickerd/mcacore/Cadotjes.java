@@ -10,7 +10,7 @@ public class Cadotjes implements Listener {
 	@EventHandler
 	public void onJoin(PlayerJoinEvent e){
 		Player p = e.getPlayer();
-		p.setScoreboard(scoreClass.scoreboard);
+		p.setScoreboard(scoreClass.board);
 		
 	}
 }
