@@ -8,6 +8,7 @@ public class main extends JavaPlugin {
 	static Plugin pl = null;
 	public void onEnable(){
 		pl = this;
+		getServer().getPluginManager().registerEvents(new Cadotjes(), this);
 	}
 	public void onDisable(){
 		pl = null;
@@ -15,5 +16,7 @@ public class main extends JavaPlugin {
 	public Plugin getPl(){
 		return pl;
 	}
+	
+	
 
 }
