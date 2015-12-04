@@ -9,6 +9,7 @@ public class main extends JavaPlugin {
 	public void onEnable(){
 		pl = this;
 		getServer().getPluginManager().registerEvents(new Cadotjes(), this);
+		getCommand("cado").setExecutor(new Cadotjes());
 	}
 	public void onDisable(){
 		pl = null;
